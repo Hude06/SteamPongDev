@@ -1,7 +1,13 @@
 # Tauri + Vanilla
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
+local dev in your browser:
 
-## Recommended IDE Setup
+`npm run start`
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+build the JS and libs
+
+`npm run build`
+
+local dev in Tauri
+
+`npm run tauri dev`

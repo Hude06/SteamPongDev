@@ -3,11 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "source": "src/index.html",
   "scripts": {
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "start": "npx parcel",
+    "build": "npx parcel build"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^1.2.2"
+    "@tauri-apps/cli": "^1.2.2",
+    "parcel": "^2.8.3"
   },
   "dependencies": {
     "josh_js_util": "^0.1.3"
